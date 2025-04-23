@@ -1,0 +1,12 @@
+Source: ros-kilted-gz-rendering-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, freeglut3-dev, libfreeimage-dev, libglew-dev, libogre-1.9-dev, libvulkan-dev, libxi-dev, libxmu-dev, ros-kilted-ament-cmake-copyright <!nocheck>, ros-kilted-ament-cmake-core, ros-kilted-ament-cmake-lint-cmake <!nocheck>, ros-kilted-ament-cmake-test, ros-kilted-ament-cmake-vendor-package, ros-kilted-ament-cmake-xmllint <!nocheck>, ros-kilted-gz-cmake-vendor, ros-kilted-gz-common-vendor, ros-kilted-gz-math-vendor, ros-kilted-gz-ogre-next-vendor, ros-kilted-gz-plugin-vendor, ros-kilted-gz-utils-vendor, uuid-dev, xvfb <!nocheck>, ros-kilted-ros-workspace
+Homepage: https://github.com/gazebosim/gz-rendering
+Standards-Version: 3.9.2
+
+Package: ros-kilted-gz-rendering-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, freeglut3-dev, libfreeimage-dev, libglew-dev, libogre-1.9-dev, libvulkan-dev, libxi-dev, libxmu-dev, ros-kilted-gz-cmake-vendor, ros-kilted-gz-common-vendor, ros-kilted-gz-math-vendor, ros-kilted-gz-ogre-next-vendor, ros-kilted-gz-plugin-vendor, ros-kilted-gz-utils-vendor, uuid-dev, ros-kilted-ros-workspace
+Description: Vendor package for: gz-rendering9 9.1.0 Gazebo Rendering: Rendering library for robot applications
