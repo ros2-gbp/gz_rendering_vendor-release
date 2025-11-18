@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.7</version>
+  <version>0.2.6</version>
   <description>
-    Vendor package for: gz-rendering8 8.2.3
+    Vendor package for: gz-rendering9 9.5.0
 
     Gazebo Rendering: Rendering library for robot applications
   </description>
@@ -50,7 +50,7 @@
   <depend>gz_ogre_next_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-rendering8</depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-rendering9</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>

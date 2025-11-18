@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.10)
 project(gz_rendering_vendor)
 
 # Project-specific settings
-set(LIB_VER_MAJOR 8)
-set(LIB_VER_MINOR 2)
-set(LIB_VER_PATCH 3)
+set(LIB_VER_MAJOR 9)
+set(LIB_VER_MINOR 5)
+set(LIB_VER_PATCH 0)
 set(LIB_VER_SUFFIX "")
 
 # Derived variables
@@ -13,7 +13,7 @@ set(LIB_NAME gz-rendering)
 set(GITHUB_NAME gz-rendering)
 string(REPLACE "-" "_" LIB_NAME_UNDERSCORE ${LIB_NAME})
 set(LIB_NAME_COMP_PREFIX ${LIB_NAME})
-set(LIB_NAME_FULL gz-rendering8)
+set(LIB_NAME_FULL gz-rendering9)
 set(LIB_VER ${LIB_VER_MAJOR}.${LIB_VER_MINOR}.${LIB_VER_PATCH})
 
 option(VENDOR_FROM_LIB_VCS_REF
@@ -57,8 +57,6 @@ ament_vendor(${LIB_NAME_UNDERSCORE}_vendor
   SATISFIED ${${LIB_NAME_FULL}_FOUND}
   VCS_URL https://github.com/gazebosim/${GITHUB_NAME}.git
   VCS_VERSION ${LIB_VCS_VER}
-  CMAKE_ARGS
-    -DBUILD_DOCS:BOOL=OFF
   GLOBAL_HOOK
   PATCHES patches
 )
