@@ -1,0 +1,12 @@
+Source: ros-lyrical-gz-rendering-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, freeglut3-dev, libfreeimage-dev, libglew-dev, libogre-1.9-dev, libvulkan-dev, libxi-dev, libxmu-dev, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-core, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-test, ros-lyrical-ament-cmake-vendor-package, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-ogre-next-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-utils-vendor, uuid-dev, xvfb <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://github.com/gazebosim/gz-rendering
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-gz-rendering-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, freeglut3-dev, libfreeimage-dev, libglew-dev, libogre-1.9-dev, libvulkan-dev, libxi-dev, libxmu-dev, ros-lyrical-gz-cmake-vendor, ros-lyrical-gz-common-vendor, ros-lyrical-gz-math-vendor, ros-lyrical-gz-ogre-next-vendor, ros-lyrical-gz-plugin-vendor, ros-lyrical-gz-utils-vendor, uuid-dev, ros-lyrical-ros-workspace
+Description: Vendor package for: gz-rendering 10.0.1 Gazebo Rendering: Rendering library for robot applications
