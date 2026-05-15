@@ -1,0 +1,25 @@
+From c0dac02972c4da7b4f41cd430486c70f267f938e Mon Sep 17 00:00:00 2001
+From: Scott K Logan <logans@cottsay.net>
+Date: Fri, 15 May 2026 00:20:53 -0500
+Subject: [PATCH] Allow absolute RPATHs in gz_rendering plugins
+
+---
+ rpm/ros-lyrical-gz-rendering-vendor.spec | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/rpm/ros-lyrical-gz-rendering-vendor.spec b/rpm/ros-lyrical-gz-rendering-vendor.spec
+index a53efdb17229..a1b7b915d59e 100644
+--- a/rpm/ros-lyrical-gz-rendering-vendor.spec
++++ b/rpm/ros-lyrical-gz-rendering-vendor.spec
+@@ -14,6 +14,8 @@ Source0:        %{name}-%{version}.tar.gz
+ BuildRequires:  bloom-rpm-macros
+ BuildRequires:  cmake
+ 
++%global __brp_check_rpaths QA_RPATHS=0x0002 %{__brp_check_rpaths}
++
+ %{?bloom_package}
+ 
+ %description
+-- 
+2.54.0
+
