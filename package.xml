@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.5.1</version>
+  <version>0.5.2</version>
   <description>
-    Vendor package for: gz-rendering 10.0.2
+    Vendor package for: gz-rendering 11.0.0
 
     Gazebo Rendering: Rendering library for robot applications
   </description>
@@ -26,7 +26,6 @@
 
   <buildtool_depend>cmake</buildtool_depend>
   <build_depend>glut</build_depend>
-  <build_depend>libfreeimage-dev</build_depend>
   <build_depend>libglew-dev</build_depend>
   <build_depend>libogre-dev</build_depend>
   <build_depend>libvulkan-dev</build_depend>
@@ -35,7 +34,6 @@
   <build_depend>opengl</build_depend>
   <build_depend>uuid</build_depend>
   <exec_depend>glut</exec_depend>
-  <exec_depend>libfreeimage-dev</exec_depend>
   <exec_depend>libglew-dev</exec_depend>
   <exec_depend>libogre-dev</exec_depend>
   <exec_depend>libvulkan-dev</exec_depend>
