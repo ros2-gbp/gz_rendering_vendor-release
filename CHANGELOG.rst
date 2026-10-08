@@ -2,49 +2,45 @@
 Changelog for package gz_rendering_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.2 (2025-06-27)
+0.2.9 (2026-10-08)
 ------------------
-* Merge pull request (`#8 <https://github.com/gazebo-release/gz_rendering_vendor/issues/8>`_)
-* Bump version to 9.2.0
-* Contributors: Ian Chen, Jose Luis Rivero
-
-0.4.5 (2026-10-08)
-------------------
-* Bump version to 10.1.0 (`#27 <https://github.com/gazebo-release/gz_rendering_vendor/issues/27>`_)
+* Bump version to 9.6.0 (`#28 <https://github.com/gazebo-release/gz_rendering_vendor/issues/28>`_)
 * Contributors: Carlos Agüero
 
-0.4.4 (2026-07-29)
+0.2.8 (2026-09-04)
 ------------------
-* Bump version to 10.0.2 (`#21 <https://github.com/gazebo-release/gz_rendering_vendor/issues/21>`_)
-* Contributors: Carlos Agüero
-
-0.4.3 (2026-01-22)
-------------------
-* Bump version to 10.0.1 (`#19 <https://github.com/gazebo-release/gz_rendering_vendor/issues/19>`_)
-* Contributors: Ian Chen
-
-0.4.2 (2025-10-01)
-------------------
-* Merge pull request `#16 <https://github.com/gazebo-release/gz_rendering_vendor/issues/16>`_ from gazebo-release/releasepy/rolling/10.0.0
-  Bump version to 10.0.0
-* Bump version to 10.0.0
-* Add dsv for PYTHONPATH for Jetty packages (`#15 <https://github.com/gazebo-release/gz_rendering_vendor/issues/15>`_)
-* Contributors: Ian Chen, Jose Luis Rivero, Steve Peters
-
-0.4.1 (2025-09-24)
-------------------
-* Bump version to 10.0.0-pre2 (`#14 <https://github.com/gazebo-release/gz_rendering_vendor/issues/14>`_)
+* Revert "Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)" (`#25 <https://github.com/gazebo-release/gz_rendering_vendor/issues/25>`_)
+  * Revert "Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)"
+  This reverts commit 44b1b7c47f1e0f76f86ef33fd2058355f2b9d54e.
+  * Rerun gz_vendor
+  ---------
 * Contributors: Addisu Z. Taddese
 
-0.4.0 (2025-09-08)
+0.2.7 (2026-08-31)
 ------------------
-* Jetty support: 10.0.0-pre1 (`#11 <https://github.com/gazebo-release/gz_rendering_vendor/issues/11>`_)
-* Contributors: Steve Peters
+* Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)
+* Contributors: Addisu Z. Taddese
 
-0.3.0 (2025-09-04)
+0.2.6 (2025-11-18)
 ------------------
-* Bump version to 9.3.0 (`#10 <https://github.com/gazebo-release/gz_rendering_vendor/issues/10>`_)
+* Bump version to 9.5.0 (`#17 <https://github.com/gazebo-release/gz_rendering_vendor/issues/17>`_)
 * Contributors: Ian Chen
+
+0.2.5 (2025-09-24)
+------------------
+* Bump version to 9.4.0 (`#12 <https://github.com/gazebo-release/gz_rendering_vendor/issues/12>`_)
+* Contributors: Ian Chen
+
+0.2.4 (2025-09-04)
+------------------
+* Bump version to 9.3.0 (`#9 <https://github.com/gazebo-release/gz_rendering_vendor/issues/9>`_)
+* Contributors: Ian Chen
+
+0.2.2 (2025-06-27)
+------------------
+* Merge pull request (`#7 <https://github.com/gazebo-release/gz_rendering_vendor/issues/7>`_)
+* Bump version to 9.2.0
+* Contributors: Ian Chen, Jose Luis Rivero
 
 0.2.1 (2025-01-28)
 ------------------
