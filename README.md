@@ -1,3 +1,26 @@
+## gz_rendering_vendor (lyrical) - 0.4.5-1
+
+The packages in the `gz_rendering_vendor` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --ros-distro lyrical gz_rendering_vendor` on `Thu, 08 Oct 2026 21:23:49 -0000`
+
+The `gz_rendering_vendor` package was released.
+
+Version of package(s) in repository `gz_rendering_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/gz_rendering_vendor.git
+- release repository: https://github.com/ros2-gbp/gz_rendering_vendor-release.git
+- rosdistro version: `0.4.4-1`
+- old version: `0.4.4-1`
+- new version: `0.4.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## gz_rendering_vendor (rolling) - 0.5.3-1
 
 The packages in the `gz_rendering_vendor` repository were released into the `rolling` distro by running `/Users/addisuzt/ws/.venv/bin/bloom-release --rosdistro rolling gz_rendering_vendor -y` on `Wed, 07 Oct 2026 04:45:55 -0000`
