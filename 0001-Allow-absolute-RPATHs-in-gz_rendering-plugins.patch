@@ -8,7 +8,7 @@ Subject: [PATCH] Allow absolute RPATHs in gz_rendering plugins
  1 file changed, 2 insertions(+)
 
 diff --git a/rpm/ros-lyrical-gz-rendering-vendor.spec b/rpm/ros-lyrical-gz-rendering-vendor.spec
-index 8131aa5da905..ff4f5a9646e9 100644
+index 8131aa5..ff4f5a9 100644
 --- a/rpm/ros-lyrical-gz-rendering-vendor.spec
 +++ b/rpm/ros-lyrical-gz-rendering-vendor.spec
 @@ -14,6 +14,8 @@ Source0:        %{name}-%{version}.tar.gz
@@ -21,5 +21,5 @@ index 8131aa5da905..ff4f5a9646e9 100644
  
  %description
 -- 
-2.55.0
+2.53.0
 
