@@ -2,67 +2,32 @@
 Changelog for package gz_rendering_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.9 (2026-10-08)
+0.0.8 (2026-10-08)
 ------------------
-* Bump version to 9.6.0 (`#28 <https://github.com/gazebo-release/gz_rendering_vendor/issues/28>`_)
+* Bump version to 8.3.0 (`#29 <https://github.com/gazebo-release/gz_rendering_vendor/issues/29>`_)
 * Contributors: Carlos Agüero
 
-0.2.8 (2026-09-04)
+0.0.7 (2025-11-18)
 ------------------
-* Revert "Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)" (`#25 <https://github.com/gazebo-release/gz_rendering_vendor/issues/25>`_)
-  * Revert "Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)"
-  This reverts commit 44b1b7c47f1e0f76f86ef33fd2058355f2b9d54e.
-  * Rerun gz_vendor
-  ---------
+* Bump version to 8.2.3 (`#18 <https://github.com/gazebo-release/gz_rendering_vendor/issues/18>`_)
+* Contributors: Ian Chen
+
+0.0.6 (2025-02-10)
+------------------
+* Bump version to 8.2.2 (`#6 <https://github.com/gazebo-release/gz_rendering_vendor/issues/6>`_)
 * Contributors: Addisu Z. Taddese
 
-0.2.7 (2026-08-31)
+0.0.5 (2024-11-08)
 ------------------
-* Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)
-* Contributors: Addisu Z. Taddese
-
-0.2.6 (2025-11-18)
-------------------
-* Bump version to 9.5.0 (`#17 <https://github.com/gazebo-release/gz_rendering_vendor/issues/17>`_)
+* Bump version to 8.2.1 (`#4 <https://github.com/gazebo-release/gz_rendering_vendor/issues/4>`_)
 * Contributors: Ian Chen
 
-0.2.5 (2025-09-24)
-------------------
-* Bump version to 9.4.0 (`#12 <https://github.com/gazebo-release/gz_rendering_vendor/issues/12>`_)
-* Contributors: Ian Chen
-
-0.2.4 (2025-09-04)
-------------------
-* Bump version to 9.3.0 (`#9 <https://github.com/gazebo-release/gz_rendering_vendor/issues/9>`_)
-* Contributors: Ian Chen
-
-0.2.2 (2025-06-27)
-------------------
-* Merge pull request (`#7 <https://github.com/gazebo-release/gz_rendering_vendor/issues/7>`_)
-* Bump version to 9.2.0
-* Contributors: Ian Chen, Jose Luis Rivero
-
-0.2.1 (2025-01-28)
-------------------
-* Bump version to 9.1.0 (`#5 <https://github.com/gazebo-release/gz_rendering_vendor/issues/5>`_)
-* Contributors: Ian Chen
-
-0.2.0 (2024-09-30)
-------------------
-* Bump version to 9.0.0 (`#3 <https://github.com/gazebo-release/gz_rendering_vendor/issues/3>`_)
-* Apply prerelease suffix (`#2 <https://github.com/gazebo-release/gz_rendering_vendor/issues/2>`_)
-  * Apply prerelease suffix
-  * Drop BUILD_DOCS
-  ---------
-* Upgrade to Ionic
-* Contributors: Addisu Z. Taddese
-
-0.1.1 (2024-07-15)
+0.0.4 (2024-07-15)
 ------------------
 * Update vendored package version to 8.2.0
 * Contributors: Addisu Z. Taddese
 
-0.1.0 (2024-04-23)
+0.0.3 (2024-04-25)
 ------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
