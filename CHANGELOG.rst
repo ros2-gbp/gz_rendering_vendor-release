@@ -2,6 +2,11 @@
 Changelog for package gz_rendering_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.9 (2026-10-08)
+------------------
+* Bump version to 9.6.0 (`#28 <https://github.com/gazebo-release/gz_rendering_vendor/issues/28>`_)
+* Contributors: Carlos Agüero
+
 0.2.8 (2026-09-04)
 ------------------
 * Revert "Enable Python bindings (`#23 <https://github.com/gazebo-release/gz_rendering_vendor/issues/23>`_)" (`#25 <https://github.com/gazebo-release/gz_rendering_vendor/issues/25>`_)
